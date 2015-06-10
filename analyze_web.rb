@@ -31,7 +31,7 @@ def get_data(uagent, url)
 	total = []
 	all_url = []
 	page = `curl -s -A "#{uagent}" "#{url}"`
-	page.split.each do |x|
+	page.force_encoding("iso-8859-1").split.each do |x|
  		total << x.split('href="')[1].to_s.split('"')[0] if x =~ /href="/
  		total << x.split("href='")[1].to_s.split("'")[0] if x =~ /href='/
  		total << x.split('src="')[1].to_s.split('"')[0] if x =~ /src="/
