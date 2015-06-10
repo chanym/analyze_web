@@ -18,5 +18,7 @@ ff - 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20120101 Firefox/29.0'
 chrome - 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
 
 Example - ./analyze_web.rb ie company.com
+
 Example - ./analyze_web.rb ff company.com
+
 Example - ./analyze_web.rb chrome company.com
