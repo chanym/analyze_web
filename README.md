@@ -5,7 +5,11 @@ I use this script to scrape website for all URL and submitting them to virustota
 
 There is a catch though as I am using a public API key which only allows me to verify against virustotal 4 times per minute
 
-Please insert your own virustotal API key in order for the script to work
+Please insert your own virustotal API key in order for the script to work.
+
+Need to install below mention gems
+gem install uirusu
+gem install redcarpet
 
 Usage - ./analyze_web.rb [user-agent] [url]
 
