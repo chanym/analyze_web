@@ -9,9 +9,10 @@ Please insert your own virustotal API key in order for the script to work.
 
 Need to install below mention gems
 
-gem install uirusu
+1) gem install uirusu
 
-gem install redcarpet
+2) gem install redcarpet
+
 
 Usage - ./analyze_web.rb [user-agent] [url]
 
